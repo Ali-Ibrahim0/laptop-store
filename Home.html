@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Laptop Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/home.css">
+    <!--nav css-->
+    <link rel="stylesheet" href="css/navbar.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+<div id="navbar"></div>
+
+    <!-- Slider -->
+    <div class="container mt-4">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/dell-xps.jpg" alt="Dell XPS">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/macbook-pro.jpg" alt="MacBook Pro">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/alienware-gaming.jpg" alt="Gaming Laptop">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Featured Products Section -->
+    <div class="container section">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row" id="featuredProducts">
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/dell-xps.jpg" class="card-img-top" alt="Dell XPS">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell XPS 13</h5>
+                        <p class="card-text">$1200</p>
+                        <a href="Products.html" class="btn btn-primary">View All Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/hp-spectre.jpg" class="card-img-top" alt="HP Spectre">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Spectre x360</h5>
+                        <p class="card-text">$1500</p>
+                        <a href="Products.html" class="btn btn-primary">View All Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/macbook-pro.jpg" class="card-img-top" alt="MacBook Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro</h5>
+                        <p class="card-text">$2000</p>
+                        <a href="Products.html" class="btn btn-primary">View All Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div class="container section why-choose-us">
+        <h2 class="text-center">Why Choose Us?</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="feature">
+                    <h4>High Quality</h4>
+                    <p>We offer top-notch laptops from trusted brands to ensure durability and performance.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature">
+                    <h4>Competitive Prices</h4>
+                    <p>Get the best value for your money with our affordable pricing and exclusive deals.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature">
+                    <h4>Fast Delivery</h4>
+                    <p>Enjoy quick and reliable shipping to get your laptop delivered right to your door.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="container section contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us anytime!</p>
+        <p>Email: <a href="mailto:support@laptopstore.com">support@laptopstore.com</a></p>
+        <p>Phone: +20(123) 456-7890</p>
+        <p>Follow us </p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
